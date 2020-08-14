@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-Dashboard</title>
+</head>
+<body>
+        <div class="jumbotron" style="margin-bottom:20px; background-color: salmon; color:white; border-bottom: black; border-width: 0rem;">
+                <h3 class="text-center" style="font-size:60px; font-weight:500;">Your Personal Weather Forecast</h3>
+            </div>
+        </br>
+    <div class="container">
+        <div   class="row">
+            <div class="col-lg-3" style="margin-bottom: 20px;">
+                <h3 style="margin-bottom: 20px;" id="search">Search for a city, then, click on the name to get the weather:</h3>
+            <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                <input type="text" name="city" id="city-input" class="form-control" placeholder="Type the city, then click search icon">
+                <button id="submitCity" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+                <div id="buttons-view"></div>
+            </div>
+            <div class="col-lg-9">
+                    <div id="showWeather"></div>
+                </div>
+                    <div class="col-lg-9">
+                       <table class="table table-bordered">
+                        <div id="header"  class="text-center"></div>
+                        <thead>
+                        <tr>
+                            <th>Weather Pic</th>
+                            <th>Weather</th>
+                            <th>Condition</th>
+                            <th>Low</th>
+                            <th>High</th>
+                            <th>Humidity</th>
+                           </tr>
+                         </thead>
+                        <tbody id="forecastWeather">
+                          </tbody>
+                          </table>
+                  </div>
+            </div>
+        </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="script.js"></script>
+<script src="forecast.js"></script>
+</body>
+</html>

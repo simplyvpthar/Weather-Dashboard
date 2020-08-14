@@ -1,0 +1,42 @@
+#showWeather {
+  padding-left: 10em;
+  background-color: lightpink;
+  color:  white;
+  border-color: tomato;
+}
+
+#forecastWeather {
+  
+}
+
+.col-lg-9 {
+  background-color: turquoise;
+  align-items: center;
+  margin-left: 20%;
+  color: white;
+}
+
+
+.table table-bordered {
+  background-color: rgb(245, 192, 242);
+}
+
+.example {
+  font-size: smaller;
+}
+
+body {
+  background-color: lightgray;
+}
+
+#city-input {
+  box-sizing: auto;
+}
+
+#header{
+  background-color: lightslategray;
+}
+
+.jumbotron {
+  border-bottom: black;
+}
