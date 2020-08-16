@@ -38,8 +38,7 @@ The following image demonstrates the application functionality:
 
 Submitted for review:
 
-* The URL of the deployed application.
-
+* The URL of the deployed application. https://simplyvpthar.github.io/Weather-Dashboard/.
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 
