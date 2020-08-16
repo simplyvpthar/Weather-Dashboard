@@ -9,7 +9,7 @@ var cities = ["Dallas", "New York",];
             var city = $(this).text();
             if (city) {
                 $.ajax({
-                    url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=Imperial" + "&APPID=39ee9bad417d8f74b28452e6d4147ed7",
+                    url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=Imperial" + "&APPID=39ee9bad417d8f74b28452e6d4147ed7",
 
                     type: "GET",
                     dataType: "jsonp",
